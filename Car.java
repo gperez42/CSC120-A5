@@ -44,8 +44,8 @@ public class Car {
     public void printManifest() {
         if (this.passengersOnboard.size() > 0) {
             for (int i = 0; i < this.passengersOnboard.size(); i++) {
-                // index into the arraylist and use an accessor
-                //  and call it on each passenger object to get the name of the person
+                System.out.println(this.passengersOnboard.get(i).getName());
+
             }
         }
         else {
@@ -60,8 +60,9 @@ public class Car {
         Passenger b = new Passenger("Bob");
         myCar.addPassenger(b);
         System.out.println(myCar.seatsRemaining());
+        myCar.printManifest();
 
-        // myCar.removePassenger(p);
+        // myCar.removePassenger(h);
         // System.out.println(myCar.seatsRemaining());
         
         // try {

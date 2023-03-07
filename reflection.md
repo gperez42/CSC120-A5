@@ -9,4 +9,5 @@ Use this file to record your reflection on this assignment.
 Sources:
 1. https://www.w3schools.com/java/java_class_attributes.asp
 2. https://stackoverflow.com/questions/3406219/how-to-throw-runtimeexception-cannot-find-symbol 
-3. 
+3. https://www.w3schools.com/java/java_try_catch.asp 
+4. https://www.geeksforgeeks.org/arraylist-get-method-java-examples/ 

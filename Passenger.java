@@ -22,7 +22,15 @@ public class Passenger {
             // if passenger is not on board
             System.out.println("This passenger is not on board."); 
         }
+
     }
+    /**
+     * Accessor/getter for passenger's name
+     */
+    public String getName() {
+        return this.name;
+    }
+    
 
 }
 
